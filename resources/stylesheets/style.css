@@ -266,14 +266,18 @@ nav.sticky {
 .go-to-buy-btn > a > svg {
     width: 100%;
 }
-.go-to-buy-btn > a > svg > text{
-    content: "GO！";
+.go-to-buy-btn > a > svg > g > text {
     fill: #fff;
     font-size: 32px;
     transform: translate(-25px, 25px);
     cursor: pointer;
 }
-.go-to-buy-btn > a > svg > circle {
+.go-to-buy-btn > a > svg > g:hover > text {
+    fill: #fed842;
+    font-size: 36px;
+    transform: translate(-28px, 28px);
+}
+.go-to-buy-btn > a > svg > g > circle {
     stroke:#ffffff;
     stroke-width: 3;
     stroke-dasharray: 10;
@@ -714,8 +718,7 @@ Media Queries
         margin-top: -20px;
         margin-left: 15px;
     }
-    .banner-footer > div .footer-go-to-buy-container .go-to-buy-btn > a > svg > text{
-        content: "GO！";
+    .banner-footer > div .footer-go-to-buy-container .go-to-buy-btn > a > svg > text {
         fill: #fff;
         font-size: 32px;
         transform: translate(-16px, 25px);
