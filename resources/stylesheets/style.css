@@ -66,7 +66,7 @@ a:active {
 
 .container {
     margin: 0 auto;
-    max-width: 996px;
+    /*max-width: 996px;*/
 }
 
 /*=Navigation=*/
@@ -103,7 +103,7 @@ nav .brand {
 
     background-image: url("../images/dentall-logo.png");
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: left center;
     background-size: auto;
     height: 100%;
 }
@@ -152,7 +152,7 @@ nav.sticky {
 }
 
 .container-fluid.nav .container {
-    width: 100%;
+    width: 70%;
     height: 84px;
     text-align: center;
 }
@@ -364,7 +364,7 @@ nav.sticky {
     line-height: 1.26;
     letter-spacing: 2.2px;
     text-align: left;
-    color: #083c8b;
+    color: #555555;
 }
 .content-container .content-wrap > div:nth-child(2) .content-1-desc-title > div:nth-child(2) {
     font-size: 18px;
@@ -372,7 +372,7 @@ nav.sticky {
     line-height: 1.33;
     letter-spacing: 0.9px;
     text-align: left;
-    color: #f5a644;
+    color: #00a2e2;
     margin-top: 10px;
 }
 .content-container .content-wrap > div:nth-child(2) .content-1-desc {
@@ -614,10 +614,12 @@ Media Queries
 }
 @media (max-width: 768px) {
     .container-fluid.nav .container {
+        width: 100%;
         height: 56px;
     }
     nav .brand {
         background-image: url("../images/phone/dentall-logo.png");
+        background-position: center center;
     }
 
     /* banner */
@@ -627,7 +629,8 @@ Media Queries
     }
     .banner-title-container {
         width: 90%;
-        margin-top: 30px;
+        margin-top: 0;
+        padding-top: 30px;
     }
     .banner-title-1 {
         background-image: url("../images/phone/banner-title@2x.png");
