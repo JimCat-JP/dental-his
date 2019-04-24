@@ -718,12 +718,12 @@ Media Queries
         margin-top: -20px;
         margin-left: 15px;
     }
-    .banner-footer > div .footer-go-to-buy-container .go-to-buy-btn > a > svg > text {
+    .banner-footer > div .footer-go-to-buy-container .go-to-buy-btn > a > svg > g > text {
         fill: #fff;
         font-size: 32px;
         transform: translate(-16px, 25px);
     }
-    .banner-footer > div .footer-go-to-buy-container .go-to-buy-btn > a > svg > circle {
+    .banner-footer > div .footer-go-to-buy-container .go-to-buy-btn > a > svg > g > circle {
         stroke: #ffffff;
         stroke-width: 3;
         stroke-dasharray: 10;
