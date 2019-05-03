@@ -445,6 +445,8 @@ Media Queries
         padding-top: 30px;
     }
     .banner-logo {
+        max-width: 103px;
+        min-height: 20px;
         background-image: url("../images/phone/dentall-logo@2x.png");
     }
     .banner-title-1 {
